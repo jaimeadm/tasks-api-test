@@ -66,13 +66,12 @@ public class APITest {
 		
 		System.out.println(id);
 		
-		/* BUG AO REMOVER
 		//remover
 		RestAssured.given()
 		.when()
 			.delete("/todo/"+id)
 		.then()
 			.statusCode(204)
-		;*/
+		;
 	}
 }
